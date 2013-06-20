@@ -1,12 +1,3 @@
-CREATE TABLE GEEK (
-id numeric not null,
-nom varchar(100) not null,
-prenom varchar(100) not null,
-datedenaissance date not null,
-sexe varchar(10) not null,
-PRIMARY KEY (id)
-);
-
 insert into GEEK values('1', 'Leblanc' , 'Immaculé' , to_date'1993-05-25','YYYY-MM-DD'),'Homme');
 insert into GEEK values('2', 'LeNoir' , 'Pneu' , to_date'2002-08-30','YYYY-MM-DD'),'Femme');
 insert into GEEK values('3', 'LeOrange' , 'Mandarine' , to_date'1991-11-02','YYYY-MM-DD'),'Homme');
