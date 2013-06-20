@@ -1,1 +1,0 @@
-Ici devra se trouver le persistence.xml utilisé par JPA
